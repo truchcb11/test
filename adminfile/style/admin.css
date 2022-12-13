@@ -1,0 +1,72 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	padding:0;
+	margin:0;
+}
+.wrapper {
+	width:1200px;
+	height:auto;
+	margin:auto;
+}
+.menu
+{
+  	height:40px;
+	background-color:#FC9;
+	margin:5px 0px;
+}
+.menu ul
+{
+	list-style:none;
+}
+.menu ul li
+{
+	line-height:40px;
+	float:left;	
+	border-right:1px dotted #999;
+	position:relative;
+}
+.menu ul li:last-child
+{
+	border:none;
+}
+.menu ul li a
+{
+	text-decoration:none;
+	padding:0 40px;
+	display:block;
+	white-space:pre;
+}
+.menu ul li a:hover
+{
+	color:red;
+	background-color:#FF0;
+	border-top:5px blue solid;
+	transition:all 1s 0s linear;
+}
+.clear{
+	clear:both;
+}
+.content {
+	width:1000px;
+	height:auto;
+	padding:20px;
+	margin:auto;
+}
+.footer {
+	width:100%;
+	height:100px;
+	background:#FF0;
+}
+table{
+	border-collapse:collapse;
+	border-color:#F00;
+	background-color:#CC9;
+}
+.menu ul form .searchform{
+	float:right;
+	line-height:40px;
+	margin-right:10px;
+}
+
+	

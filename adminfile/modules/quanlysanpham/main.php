@@ -1,0 +1,15 @@
+<?php
+	if(isset($_GET['ac'])){
+		$tam=$_GET['ac'];
+	}else{
+		$tam='';
+	}if($tam=='them'){
+		include('modules/quanlysanpham/them.php');
+	}elseif($tam=='sua'){
+		include('modules/quanlysanpham/sua.php');
+	}elseif($tam=='lietke'){
+		include('modules/quanlysanpham/lietke.php');
+	}else{
+		include('modules/quanlysanpham/lietke.php');
+	}
+?>

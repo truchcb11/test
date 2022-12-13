@@ -1,0 +1,13 @@
+<?php
+	if(isset($_GET['ac'])){
+		$tam=$_GET['ac'];
+	}else{
+		$tam='';
+	}if($tam=='them'){
+		include('modules/quanlynhanhieu/them.php');
+	}if($tam=='sua'){
+		include('modules/quanlynhanhieu/sua.php');
+	}if($tam=='lietke'){
+		include('modules/quanlynhanhieu/lietke.php');
+	}
+?>
